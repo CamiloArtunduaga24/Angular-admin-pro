@@ -10,6 +10,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SharedModule } from '../shared/shared.module';
 import { ComponentsModule } from '../components/components.module';
+import { SettingsComponent } from './settings/settings.component';
 
 
 
@@ -20,6 +21,7 @@ import { ComponentsModule } from '../components/components.module';
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
+    SettingsComponent,
   ],
   imports: [
     CommonModule,
@@ -33,7 +35,8 @@ import { ComponentsModule } from '../components/components.module';
     DashboardComponent,
     ProgressComponent,
     Grafica1Component,
-    PagesComponent
+    PagesComponent,
+    SettingsComponent
   ]
 })
 export class PagesModule { }
