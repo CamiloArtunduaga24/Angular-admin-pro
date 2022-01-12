@@ -11,6 +11,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { SharedModule } from '../shared/shared.module';
 import { ComponentsModule } from '../components/components.module';
 import { SettingsComponent } from './settings/settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -22,6 +24,8 @@ import { SettingsComponent } from './settings/settings.component';
     Grafica1Component,
     PagesComponent,
     SettingsComponent,
+    PromesasComponent,
+    RxjsComponent,
   ],
   imports: [
     CommonModule,
@@ -36,7 +40,8 @@ import { SettingsComponent } from './settings/settings.component';
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
-    SettingsComponent
+    SettingsComponent,
+    PromesasComponent
   ]
 })
 export class PagesModule { }
